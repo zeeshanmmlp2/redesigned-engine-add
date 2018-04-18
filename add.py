@@ -1,4 +1,12 @@
-a=int(raw_input("Enter th efirst no  :"))
-b=int(raw_input("Enter the second no :"))
-c=a+b
-print "Result	:",c
+
+def add2(x,y):
+    s=x+y
+    return s
+
+def add3(x,y,z):
+    p=x+y+z
+    return p
+print "Result   :",add2(3,4)
+print "\n"
+print "Result   :",add3(3,4,5)
+
